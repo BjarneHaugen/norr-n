@@ -1,0 +1,46 @@
+body {
+  background: rgb(186, 186, 186);
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+article {
+  background: rgba(255, 255, 255, 0.801);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  max-width: 250px;
+  display: inline-block;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  margin: 10px;
+  min-width: 150px;
+  min-height: 200px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
+
+#newCard {
+  text-align: center;
+  min-width: 150px;
+  min-height: 200px;
+}
+
+#newCardLine {
+  background: rgba(255, 0, 0, 0.801);
+  height: 4px;
+  width: 100%;
+  display: inline-block;
+}

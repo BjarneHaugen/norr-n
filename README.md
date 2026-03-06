@@ -1,2 +1,0 @@
-# norr-n
-norrøn cardgame

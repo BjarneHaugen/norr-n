@@ -1,0 +1,70 @@
+[
+    {
+        "id": 0,
+        "name": "Odin",
+        "description": "lederen av Æsene, guden for visdom, krig og død",
+        "image": "/odin.jpg",
+        "link": "https://snl.no/Odin",
+        "relatives": [
+            {
+                "id": 1,
+                "relationship": "ektefelle"
+            },
+            {
+                "id": 2,
+                "relationship": "barn"
+            },
+            {
+                "id": 3,
+                "relationship": "blodbrødre"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Frigg",
+        "description": "Odin's kone, gudinnen for ekteskap og familie",
+        "image": "/frigg.jpg",
+        "link": "https://snl.no/Frigg",
+        "relatives": [
+            {
+                "id": 0,
+                "relationship": "ektefelle"
+            },
+            {
+                "id": 2,
+                "relationship": "barn"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Balder",
+        "description": "guden for lys, skjønnhet og godhet",
+        "image": "/balder.jpg",
+        "link": "https://snl.no/Balder",
+        "relatives": [
+            {
+                "id": 0,
+                "relationship": "foreldre"
+            },
+            {
+                "id": 1,
+                "relationship": "foreldre"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Loke",
+        "description": "guden for lureri og kaos",
+        "image": "/loke.jpg",
+        "link": "https://snl.no/Loke",
+        "relatives": [
+            {
+                "id": 0,
+                "relationship": "blodbror"
+            }
+        ]
+    }
+]
