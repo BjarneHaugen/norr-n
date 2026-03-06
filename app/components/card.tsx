@@ -19,7 +19,7 @@ const Card = ({ revealed, setRevealed }: CardProps) => {
 
         const targetGod = gods.find(g => String(g.id) === targetId);
         if (targetGod && targetGod.id === god.id) {
-            setRevealed(prev => ({ ...prev, [targetId]: true }));
+            setRevealed({ ...revealed, [targetId]: true });
         }
     }
 
@@ -53,7 +53,7 @@ const Card = ({ revealed, setRevealed }: CardProps) => {
                             <a href={god.link} target="_blank" rel="noopener noreferrer">
                                 Les mer
                             </a>
-                       </>
+                        </>
                     )}
                 </article>
             ))}
